@@ -17,11 +17,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="BTq-8Q-cwP">
-                                <rect key="frame" x="20" y="329" width="374" height="150"/>
+                                <rect key="frame" x="20" y="328" width="374" height="152"/>
                                 <subviews>
                                     <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5rj-P4-ZFf">
-                                        <rect key="frame" x="0.0" y="0.0" width="374" height="60"/>
-                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="40"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="61"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="41"/>
                                         <state key="normal" title="PLAY">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
@@ -30,8 +30,8 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hwK-0g-2x7">
-                                        <rect key="frame" x="0.0" y="90" width="374" height="60"/>
-                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="40"/>
+                                        <rect key="frame" x="0.0" y="91" width="374" height="61"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="41"/>
                                         <state key="normal" title="RESULTS">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>

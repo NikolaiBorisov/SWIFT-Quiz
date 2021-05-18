@@ -44,7 +44,7 @@ class GameViewController: UIViewController {
     choice2.roundCorners(with: 4)
     choice3.roundCorners(with: 4)
   }
-  
+  //
   private func setupRestartTimerButton() {
     restartButton.roundCorners(with: 2)
     restartButton.titleLabel?.font = UIFont.boldSystemFont(ofSize: 20)

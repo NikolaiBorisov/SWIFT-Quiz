@@ -3,7 +3,6 @@
 //  SwiftTest
 //
 //  Created by NIKOLAI BORISOV on 07.02.2021.
-//
 
 import Foundation
 
@@ -12,7 +11,7 @@ struct QuestionModel {
   var questionNumber = 0
   var score = 0
   var timerZero = 0
-  
+  //
   let test = [
     Question(text: "1. В каком варианте правильно показано объявление шаблонной функции?", answers: ["func someFunc T(_ x: T)", "func someFunc <T>(_ x: <T>)", "func someFunc <T>(_ x: T)"], corAnsw: "func someFunc <T>(_ x: T)"),
     Question(text: "2. Ниже дана функция принимающая параметром замыкание, на каком варианте показан вызов этой функции?\n1. someFunc(closure : {“тело замыкания”});\n2. someFunc() {“тело замыкания”}" , answers: ["Только 1", "Неверны оба", "Только 2"], corAnsw: "Только 1"),
