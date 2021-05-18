@@ -3,10 +3,9 @@
 //  SwiftTest
 //
 //  Created by NIKOLAI BORISOV on 06.02.2021.
-//
 
 import Foundation
-
+//
 struct Question {
   let text: String
   let answers: [String]
